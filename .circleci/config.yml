@@ -1,7 +1,7 @@
 version: 2
 jobs:
   build:
-    working_directory: ~/
+    working_directory: ~/my_py_project
     docker:
       - image: circleci/python:3.9
     steps:
