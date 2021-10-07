@@ -9,14 +9,14 @@ def get_requires() -> List[str]:
 
 
 setup(
-    name="",
-    description="",
-    version="",
+    name="kotobo-api",
+    description="Working with the Kotobo app in Python",
+    version="0.0.1",
     license="MIT",
-    author="",
-    author_email="",
-    url="",
-    keywords=[],
+    author="K",
+    author_email="kmyashi@rmc-8.com",
+    url="https://github.com/rmc8/kotobo-api",
+    keywords=["Kotobo"],
     packages=find_packages(where="src"),
     package_dir={"": "src"},
     install_requires=get_requires(),
